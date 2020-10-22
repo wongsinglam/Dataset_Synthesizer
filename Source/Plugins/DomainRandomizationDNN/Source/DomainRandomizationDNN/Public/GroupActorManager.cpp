@@ -47,8 +47,8 @@ void AGroupActorManager::BeginPlay()
 
 void AGroupActorManager::SpawnActors()
 {
+    //DestroyManagedActors();
     DestroyManagedActors();
-
     TArray<FNVActorTemplateConfig> ActorTemplates;
     ActorTemplates.Reset();
 

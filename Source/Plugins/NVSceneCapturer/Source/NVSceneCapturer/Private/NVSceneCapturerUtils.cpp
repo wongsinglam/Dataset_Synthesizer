@@ -749,7 +749,8 @@ namespace NVSceneCapturerUtils
             {
                 if (CheckStaticMeshComp)
                 {
-                    CheckStaticMeshComp->RemoveInstanceVertexColors();
+                    //CheckStaticMeshComp->RemoveInstanceVertexColors();
+                    CheckStaticMeshComp->RemoveInstanceVertexColorsFromLOD(0);
                 }
             }
 

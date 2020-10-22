@@ -8,7 +8,8 @@
 
 #include "NVSceneCapturerUtils.h"
 #include "HAL/Runnable.h"
-#include "IImageWrapper.h"
+//#include "IImageWrapper.h"
+#include "IImageWrapperModule.h"
 #include "NVImageExporter.generated.h"
 
 USTRUCT()

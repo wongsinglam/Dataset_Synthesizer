@@ -89,6 +89,8 @@ public: // Editor properties
     float SpawnDuration;
 
 protected: // Transient
+
+public:
     UPROPERTY(Transient)
     TArray<AActor*> ManagedActors;
 
@@ -97,17 +99,24 @@ protected: // Transient
     UPROPERTY(Transient)
     float CountdownUntilNextSpawn;
 
+	void UpdateProxyMeshes();
+    void UpdateProxyMeshesVisibility();
+    void DestroyManagedActors();
+
+
 #if WITH_EDITORONLY_DATA
     virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;
     static void AddReferencedObjects(UObject* InThis, FReferenceCollector& Collector);
 
 protected:
+
+
     // List of the proxy meshes used to show where actors should be on the level
     TArray<class UStaticMeshComponent*> ProxyMeshComponents;
 
-    void UpdateProxyMeshes();
-    void UpdateProxyMeshesVisibility();
-    void DestroyManagedActors();
+    //void UpdateProxyMeshes();
+    //void UpdateProxyMeshesVisibility();
+    //void DestroyManagedActors();
 
 #endif // WITH_EDITORONLY_DATA
 };
