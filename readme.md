@@ -11,7 +11,7 @@ https://github.com/NVIDIA/Dataset_Synthesizer/pull/47#issue-352692037
 https://github.com/NVIDIA/Dataset_Synthesizer/pull/89#issue-507817738
 
 Branch 4.25-packaging:
-Enable it to support for packaging while the Branch 4.25 is not. But not sure if it exsits some bugs or something wrong since I am not quite familiar with UE4 coding.
+Enable it to support for packaging while the Branch 4.25 has problems with packaging. But not sure if it exsits some bugs or something wrong since I am not quite familiar with UE4 coding.
 
 
 Overview
