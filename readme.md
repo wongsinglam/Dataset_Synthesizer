@@ -1,6 +1,16 @@
 NVIDIA Deep learning Dataset Synthesizer (NDDS)
 ===============================================
 
+
+Something you should know:
+--------
+Branch 4.25: 
+Just make some modifications based on original code of v1.2.2 to support UE4 4.25 version.
+
+Branch 4.25-packaging:
+Enable it to support for packaging while the Branch 4.25 is not. But not sure if it exsits some bugs or something wrong since I am not quite familiar with UE4 coding.
+
+
 Overview
 --------
 
